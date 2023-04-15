@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Veryfy contuct us button clickable",
+        "description": "",
+        "id": "this-is-customer-service--feature;veryfy-contuct-us-button-clickable",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8196939700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch application URL",
+            "match": {
+              "location": "Step_deffClass.launch_application_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1225052200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on customer service link",
+            "match": {
+              "location": "Step_deffClass.click_on_customer_service_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154846700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify customer service link page available",
+            "match": {
+              "location": "Step_deffClass.verify_customer_service_link_page_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is customer service  feature",
+    "description": "",
+    "id": "this-is-customer-service--feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
